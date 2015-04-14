@@ -14,6 +14,7 @@
 		D432E2841ADBDCF6001E5534 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D432E2831ADBDCF6001E5534 /* Images.xcassets */; };
 		D432E2871ADBDCF6001E5534 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D432E2851ADBDCF6001E5534 /* LaunchScreen.xib */; };
 		D432E2931ADBDCF6001E5534 /* FalseSenseOfSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D432E2921ADBDCF6001E5534 /* FalseSenseOfSecurityTests.m */; };
+		D4DABF271ADCFC0600B11F43 /* FalseSenseSecurity_CLASSDUMP.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4DABF261ADCFC0600B11F43 /* FalseSenseSecurity_CLASSDUMP.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D432E28C1ADBDCF6001E5534 /* FalseSenseOfSecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalseSenseOfSecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D432E2911ADBDCF6001E5534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D432E2921ADBDCF6001E5534 /* FalseSenseOfSecurityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FalseSenseOfSecurityTests.m; sourceTree = "<group>"; };
+		D4DABF251ADCDD7200B11F43 /* DebugValidate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugValidate.h; sourceTree = "<group>"; };
+		D4DABF261ADCFC0600B11F43 /* FalseSenseSecurity_CLASSDUMP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FalseSenseSecurity_CLASSDUMP.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 		D432E2751ADBDCF6001E5534 /* FalseSenseOfSecurity */ = {
 			isa = PBXGroup;
 			children = (
+				D4DABF261ADCFC0600B11F43 /* FalseSenseSecurity_CLASSDUMP.txt */,
 				D432E27A1ADBDCF6001E5534 /* AppDelegate.h */,
 				D432E27B1ADBDCF6001E5534 /* AppDelegate.m */,
 				D432E27D1ADBDCF6001E5534 /* ViewController.h */,
 				D432E27E1ADBDCF6001E5534 /* ViewController.m */,
+				D4DABF251ADCDD7200B11F43 /* DebugValidate.h */,
 				D432E2801ADBDCF6001E5534 /* Main.storyboard */,
 				D432E2831ADBDCF6001E5534 /* Images.xcassets */,
 				D432E2851ADBDCF6001E5534 /* LaunchScreen.xib */,
@@ -199,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4DABF271ADCFC0600B11F43 /* FalseSenseSecurity_CLASSDUMP.txt in Resources */,
 				D432E2821ADBDCF6001E5534 /* Main.storyboard in Resources */,
 				D432E2871ADBDCF6001E5534 /* LaunchScreen.xib in Resources */,
 				D432E2841ADBDCF6001E5534 /* Images.xcassets in Resources */,
@@ -347,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				INFOPLIST_FILE = FalseSenseOfSecurity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				INFOPLIST_FILE = FalseSenseOfSecurity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +424,7 @@
 				D432E2981ADBDCF6001E5534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D432E2991ADBDCF6001E5534 /* Build configuration list for PBXNativeTarget "FalseSenseOfSecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				D432E29B1ADBDCF6001E5534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

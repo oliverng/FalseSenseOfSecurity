@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *debugTxtLabel;
+@property (weak, nonatomic) IBOutlet UILabel *debugTest2TxtLabel;
 
 @end
 
