@@ -2,8 +2,9 @@
 //  DebugValidate.h
 //  FalseSenseOfSecurity
 //
-//  Created by Oliver and Vienne Ng on 14/4/15.
-//  Copyright (c) 2015 ONG. All rights reserved.
+//  Created by Oliver Ng on 30/5/15.
+//  Copyright (c) 2015 Security Compass. All rights reserved.
+//  http://www.securitycompass.com
 //
 //  The below code is taken straight from Apple Documentation:
 //  https://developer.apple.com/library/mac/qa/qa1361/_index.html
